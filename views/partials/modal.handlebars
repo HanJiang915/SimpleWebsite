@@ -1,0 +1,38 @@
+<button type="button" id="post-button"><i class="fas fa-arrow-alt-circle-up"></i></button>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="post-something-modal" class="hidden">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <h3>Add New Post</h3>
+            <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+        </div>
+        <hr>
+        <div class="modal-body">
+            <div class="post-input-element">
+                <label for="post-title-input">Post Title</label>
+                <input type="text" id="post-title-input"></input>
+            </div>
+            <div class="post-input-element">
+                <label for="post-image-input">Image URL</label>
+                <input type="text" id="post-image-input">
+            </div>
+            <div class="post-input-element">
+                <label for="post-theme-input">Theme</label>
+                <input type="text" id="post-theme-input">
+            </div>
+            <div class="post-input-element">
+                <label for="post-link-input">Web URL</label>
+                <input type="text" id="post-link-input">
+            </div>
+            <div class="post-input-element">
+                <label for="post-delete-input">Delete Post</label>
+                <input type="number" id="post-delete-input">
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+                <button type="button" id="modal-accept" class="action-button">Create Post</button>
+            </div>
+        </div>
+    </div>
+</div>

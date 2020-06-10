@@ -1,0 +1,34 @@
+<main>
+    <div class="profile">
+        <div class="user-banner"></div>
+        <div class="profile-picture-container">
+            <div class="profile-image-container">
+                <img src="https://www.shareicon.net/data/256x256/2016/09/01/822718_user_512x512.png">
+            </div>
+            <div class="profile-social-container">
+                <div>FOLLOW ON SOCIAL</div>
+                <div class="profile-links-container">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-info-container">
+            <div class="profile-name">Alfonso Mashumba</div>
+            <hr>
+            <p class="profile-intro">Alfonso Mashumba farms in eastern Iowa. He grows indigenous organic grains including maize, whole brown rice, sorghum, millet, and gumtrees. He also grows peas for export and breeds cattle.</p>
+        </div>
+    </div>
+    <div id="posts">
+        <div class="title">Event Board</div>
+
+        {{#each posts}}
+            {{> postCard}}
+        {{/each}}
+
+    </div>
+</main>
+
+  {{#ifModal posts.length}}
+    {{> modal}}
+  {{/ifModal}}
