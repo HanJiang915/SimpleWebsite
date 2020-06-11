@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/OSU-CS290-F18/final-project-cs290-group-3.git"
+        "url": "git+https://github.com/HanJiang915/SimpleWebsite.git"
     },
     "author": "Han Jiang",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/OSU-CS290-F18/final-project-cs290-group-3/issues"
+        "url": "https://github.com/HanJiang915/SimpleWebsite/issues"
     },
-    "homepage": "https://github.com/OSU-CS290-F18/final-project-cs290-group-3#readme",
+    "homepage": "https://github.com/HanJiang915/SimpleWebsite#readme",
     "dependencies": {
         "express": "^4.17.1",
         "express-handlebars": "^4.0.4",
